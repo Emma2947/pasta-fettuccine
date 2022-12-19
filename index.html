@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Pasta Fettuccine, Spaghetti, Urtekram, Pasta, Fettuccine, Madlavning, Økologi, Italiensk pasta">
+    <title>Pasta Fettuccine | Urtekram</title>
+    <meta name="description" content="Pasta Fettuccine - Økologisk og velsmagende pasta fra Urtekram">
+    <meta name="author" content="Emma Bøndergård Ulriksen">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/vjm8jpp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+ 
+        <!--Menupunkter i navigationen-->
+        <nav id="topnav">
+            <div class="topindhold">
+            <a href="index.html"><img src="img/logo.png" alt="Urtekram"></a>
+            <ul id="menu">
+                <li><a href="html/opskrifter.html">Opskrifter</a></li>
+                <li><a href="html/konkurrence.html">Konkurrence</a></li>
+                <li><a href="html/om-pasta-fettuccine.html">Om Pasta Fettuccine</a></li>
+                <li><a href="#">Om Urtekram</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+            <!--Burgermenu-->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+        </nav>
+
+        <!--Javascript til Burgermenuen-->
+        <script>
+            function myFunction() {
+            var x = document.getElementById("menu");
+            var y = document.getElementById("topnav");
+            if (x.style.display === "block") {
+             x.style.display = "none";
+             } else {
+              x.style.display = "block";
+             }
+            }
+        </script>
+        
+        
+       <div class="mobile-container">
+        
+            <!--Indhold på forsiden-->
+        <main class="indhold">
+            
+            <!--Link til opskrifter-->
+            <section class="opskrifter-forside">
+                <img src="img/potion-cacio-e-pepe.jpg" alt="En portion Pasta Cacio e Pepe" class="forside-pasta">
+                <h1><a href="html/opskrifter.html">Find opskrifter</a></h1>
+            </section>
+
+            <!--Link til Om Pasta Fettuccine-->
+            <section class="pasta-fettuccine">
+                <img src="img/bedste-version-af-pasta.png" alt="Pasta Fettuccine" class="pasta-emballage">
+                <h2><a href="html/om-pasta-fettuccine.html">Om Pasta Fettuccine</a></h2>
+            </section>
+
+            <!--Link til Konkurrence-->
+            <section class="konkurrence">
+                <div class="insta-wrapper">
+                    <img src="img/raa-pasta-med-gaffel.jpg" alt="Pasta på en tallerken" class="pasta-tallerken">
+                    <p class="instatekst">
+                         &#9829; 720 synes godt om
+                         <br>
+                        Urtekram: Hvad putter du på din pasta? #pimpdinpasta
+                     </p>
+                </div>
+                <div class="konkurrence-wrapper">
+                    <p>
+                        Vis din signaturpastaret og være med i konkurrencen om et års forbrug af Pasta Fettuccine.
+                    </p>
+                    <h3><a href="html/konkurrence.html">Læs mere her</a></h3>
+                </div>
+            </section>
+
+            <!--(ikke aktivt) Link til Om Urtekram-->
+            <section class="urtekram">
+                <img src="img/logo.png" alt="Urtekram" class="om-logo">
+                <h3><a href="#">Læs mere om Urtekram</a></h3>
+            </section>
+
+        </main>
+
+        <!--Indhold i footeren-->
+        <footer>
+            <section class="tekst-footer">
+                <div class="footer-wrapper1">
+                    <h6>Menu</h6>
+                    <ul>
+                        <li><a href="html/opskrifter.html">Opskrifter</a></li>
+                        <li><a href="html/Konkurrence.html">Konkurrence</a></li>
+                        <li><a href="html/om-pasta-fettuccine.html">Om Pasta Fettuccine</a></li>
+                        <li><a href="#">Om Urtekram</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-wrapper2">
+                    <h6>Sociale Medier</h6>
+                    <ul>
+                        <li><a href="https://www.instagram.com/urtekram/?hl=sv">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/urtekram/">Facebook</a></li>
+                    </ul>
+                    <p>Urtekram &copy; 2022</p>
+                </div>
+                <a href="index.html"><img src="img/logo.png" alt="Urtekram" class="logo-footer"></a>
+            </section>
+        </footer>
+
+    </div>
+</body>
+</html>

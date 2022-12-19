@@ -1,0 +1,996 @@
+body {
+font-family: marigny, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin: 0;
+height: auto;
+}
+
+
+.mobile-container {
+    max-width: 480px;
+    color: black;
+    margin: auto;
+}
+
+/*Styling af Navigationen og burgermenuen*/
+#topnav {
+    overflow: hidden;
+    position: relative;
+   
+    z-index: 100000;
+    background-color: #e8e5e1;
+  }
+
+nav img {
+    width: 60px;
+    padding: 10px;
+}
+
+#menu {
+    display: none;
+    z-index: 9999;
+    padding-inline-start: 0;
+  }
+
+nav li {
+    list-style-type: none;
+    z-index:9999;
+    text-align: center;
+  }
+
+  #menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  #menu a:hover {
+    font-size: 1.1rem;
+  }
+
+  .fa {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  #topnav .icon:hover {
+    background-color: #d7d3ce;
+  }
+
+nav a.icon {
+    position: absolute;
+    float: right;
+    display: block;
+    right: 0px;
+    top: 10px;
+}
+
+
+/*Styling af Forsidebilledet*/
+.forside-pasta {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/*Styling af Opskrifter knappen*/
+.opskrifter-forside {
+    text-align: center;
+}
+
+.opskrifter-forside h1{
+    margin-top: -50%;
+    margin-bottom: 50px;
+}
+
+.opskrifter-forside a {
+    text-decoration: none;
+    color: black;
+    background-color: #ab443d;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #802620;
+    font-size: 1.4rem;
+}
+
+.opskrifter-forside a:hover {
+    background-color: #9b3b34;
+}
+
+/*Styling af Pasta Fettuccine afsnittet*/
+.pasta-fettuccine {
+    background: linear-gradient(-42.6deg, #ffff 50.5%, #802620 50.6%);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.pasta-fettuccine .pasta-emballage {
+    
+    width: 90%;
+}
+
+.pasta-fettuccine a {
+    text-decoration: none;
+    color: black;
+    background-color: #dcccad;
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 1.4rem;
+}
+
+.pasta-fettuccine a:hover{
+    background-color: #d7c39a;
+}
+
+/*Styling af Konkurrence afsnittet*/
+.konkurrence {
+    background-color: #dcccad;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -40px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+}
+
+.insta-wrapper {
+    background-color: #fff;
+    margin: 10px;
+    margin-top: 20px;
+    display: grid;
+}
+
+.pasta-tallerken {
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid gray;
+}
+
+.instatekst {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.konkurrence-wrapper {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.konkurrence-wrapper a{
+    text-decoration: none;
+    color: black;
+    background-color: #ab443d;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #802620;
+    font-size: 1.4rem;
+}
+
+.konkurrence-wrapper a:hover {
+    background-color: #9b3b34;
+}
+
+/*Styling af urtekram afsnittet*/
+.urtekram {
+    background: linear-gradient(-51.5deg, #ffff 52%, #802620 52.1%); 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.urtekram img {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.urtekram a {
+    text-decoration: none;
+    color: black;
+    background-color: #dcccad;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 1.4rem;
+}
+
+.urtekram a:hover{
+    background-color: #d7c39a;
+}
+    
+/*Styling af Footer*/
+.tekst-footer {
+    text-align: center;
+    background-color: #e8e5e1;
+    padding-top: 2px;
+}
+
+footer ul{
+    padding-inline-start: 0px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    font-size: 1.1rem;
+}
+
+footer h6 {
+    font-size: 1.2rem;
+    margin-block-end: 0.5rem;
+}
+
+.footer-wrapper2 p {
+    margin-top: 30px;
+}
+
+footer img {
+    width: 20%;
+}
+
+
+/*Underside: Opskrifter*/
+
+.opskrift-tekst {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.opskrift-tekst h1 {
+    font-size: 1.7rem;
+}
+
+.opskrift1 img {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.opskrift2 img{
+    width: 100%;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+
+.opskrifter {
+    text-align: center;
+}
+
+.opskrifter a {
+    text-decoration: none;
+    color: black;
+    background-color: #ab443d;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #802620;
+    font-size: 1.4rem;
+}
+
+.opskrifter a:hover {
+    background-color: #9b3b34;
+}
+
+/*Underside: Konkurrence*/
+.konkurrencen {
+    text-align: center;
+}
+
+.konkurrencen h1 {
+    font-size: 1.7rem;
+}
+
+.kon1 {
+    width: 80%;
+    border: 1px solid gray;
+}
+
+.kon2 {
+    margin: 20px;
+}
+
+.deltag {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.deltag a {
+    text-decoration: none;
+    color: black;
+    background-color: #ab443d;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #802620;
+    font-size: 1.3rem;
+}
+
+.deltag a:hover {
+    background-color: #9b3b34;
+}
+
+.retter {
+    text-align: center;
+}
+
+.retter img {
+    width: 80%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+
+/*Styling af Pasta Fettuccine afsnittet*/
+.pasta-fettuccine-bund {
+    background: linear-gradient(-47.8deg, #ffff 50.5%, #802620 50.6%);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.pasta-fettuccine-bund .pasta-emballage {
+    
+    width: 90%;
+}
+
+.pasta-fettuccine-bund a {
+    text-decoration: none;
+    color: black;
+    background-color: #dcccad;
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 1.4rem;
+}
+
+.pasta-fettuccine-bund a:hover{
+    background-color: #d7c39a;
+}
+
+/*underside Pasta Fettuccine*/
+.fettuccine {
+    background: linear-gradient(-47.5deg, #ffff 50.2%, #802620 50.3%);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.fettuccine .pasta-emballage {
+    width:90%;
+}
+.fettuccine h1 {
+    background-color: #dcccad;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 1.4rem;
+    margin-top: -10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.bag-om {
+    background-color: #dcccad;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -10px;
+    text-align: center
+}
+
+.bag1 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bag-om h2 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.bag-om img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+
+.ingredienser {
+    background-color: #ab443d;
+    text-align: center;
+    padding: 7px 7px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.hvid{
+    background-color: #fff;
+    margin: 10px;
+}
+
+.ingredienser img {
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.ing1 {
+    padding: 5px 10px 10px 10px;
+}
+
+.ingredienser h2 {
+    font-size: 1.5rem;
+}
+
+.se-opskrifter {
+    background: linear-gradient(-51.5deg, #ffff 52%, #802620 52.1%); 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.se-opskrifter img {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.se-opskrifter a {
+    text-decoration: none;
+    color: black;
+    background-color: #dcccad;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 1.4rem;
+}
+
+.se-opskrifter a:hover{
+    background-color: #d7c39a;
+}
+
+/* Pasta Pomodoro og Cacio e Pepe */
+.pastaretten {
+    text-align: center;
+}
+
+.pastaretten h1 {
+    font-size: 1.7rem;
+}
+
+.pastaretten img {
+    width: 80%;
+    border: 1px solid gray;
+}
+
+.pastaretten p {
+    background-color: #ab443d;
+    padding: 20px 15px;
+}
+
+.tekst {
+    padding: 5px 20px
+}
+
+.billede {
+    text-align: center;
+}
+
+.billede img {
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    .mobile-container {
+        max-width: 768px;
+        font-size: 1.2rem;
+    }
+
+    nav img {
+        width: 80px;
+        padding: 10px 15px;
+    }
+
+    .fa {
+        font-size: 40px;
+        margin-top: 5px;
+      }
+
+    
+     #menu a {
+        font-size: 1.2rem;
+     }
+
+    #menu a:hover {
+        font-size: 1.3rem;
+     }
+    
+    .opskrifter-forside a {
+        font-size: 2rem;
+    }
+
+    .pasta-fettuccine {
+        background: linear-gradient(-33.5deg, #ffff 44%, #802620 44.1%);
+    }
+
+    .pasta-fettuccine .pasta-emballage {
+        margin-top: 7%;
+    }
+
+    .pasta-fettuccine h2 {
+        margin-top: -5%;
+    }
+
+    .pasta-fettuccine a {
+        font-size: 2rem;
+    }
+
+    .urtekram {
+        background: linear-gradient(-46.5deg, #ffff 52%, #802620 52.1%); 
+    }
+
+    .konkurrence-wrapper a{
+        font-size: 2rem;
+    }
+
+    .konkurrence h3 {
+        margin-top: 40px;
+    }
+
+    .konkurrence {
+        padding-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .urtekram a {
+        font-size: 2rem;
+    }
+
+    .tekst-footer {
+        padding-top: 2px;
+    }
+
+    footer h6 {
+        font-size: 1.5rem;
+    }
+
+    footer a:hover{
+        font-size: 1.3rem;
+    }
+
+    .opskrift-tekst h1 {
+        font-size: 2rem;
+    }
+
+    .opskrifter a {
+        font-size: 2rem;
+    }
+
+    .opskrifter img {
+        width: 90%;
+    }
+
+    .konkurrencen h1 {
+        font-size: 2rem;
+    }
+
+    .deltag a {
+        font-size: 2rem;
+    }
+
+    .pasta-fettuccine-bund {
+        background: linear-gradient(-39.5deg, #ffff 50.1%, #802620 50.2%);
+    }
+
+    .pasta-fettuccine-bund .pasta-emballage {
+       margin-top: -10%;
+    }
+
+    .pasta-fettuccine-bund a {
+        font-size: 2rem;
+    }
+
+    .fettuccine {
+        background: linear-gradient(-42.5deg, #ffff 50.2%, #802620 50.3%);
+    }
+
+    .fettuccine h1 {
+        font-size: 2.1rem;
+    }
+
+    .bag-om h2 {
+        padding-top: 30px;
+        font-size: 1.7rem;
+    }
+
+    .ingredienser h2 {
+        font-size: 1.9rem;
+    }
+
+    .se-opskrifter {
+        background: linear-gradient(-46.5deg, #ffff 52%, #802620 52.1%); 
+    }
+
+    .se-opskrifter a {
+        font-size: 2rem;
+    }
+
+    .pastaretten p {
+        padding: 30px 20px;
+    }
+
+    .pastaretten h1 {
+        font-size: 2rem;
+    }
+
+}    
+
+
+@media screen and (min-width: 768px){
+   body {
+    background-color: rgb(247, 243, 243);
+   }
+   
+    .mobile-container {
+        max-width: 1200px;
+        background-color: #fff;
+    }
+
+    
+    #topnav {
+        overflow: visible;
+        position: fixed;
+        width: 100%;
+        background-color: #e8e5e1;
+        
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 110px;
+        margin-top: -65px;
+        margin-bottom: 40px;
+    }  
+    
+    #menu a {
+        font-size: 1.1rem;
+    }
+
+    #menu a:hover {
+        text-decoration: underline;
+    }
+
+    nav img{
+        width: 80px;    
+    }
+
+    .fa {
+        display: none;
+    }
+
+    .opskrifter-forside a {
+        font-size: 2rem;
+    }
+
+    .pasta-fettuccine {
+        background: linear-gradient(-28.3deg, #ffff 38.3%, #802620 .4%);
+    }
+
+    .pasta-fettuccine .pasta-emballage {
+        width: 80%;
+        margin-top: 230px;
+    }
+
+    .pasta-fettuccine a {
+        font-size: 2rem;
+    }
+
+    .pasta-fettuccine h2 {
+        margin-top: -40px;
+    }
+
+    .konkurrence {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .insta-wrapper {
+        margin: 70px;
+    }
+
+    .konkurrence-wrapper {
+        padding-top: 250px;
+        padding-right: 10px;
+    }
+
+    .konkurrence-wrapper p {
+        font-size: 1.3rem;
+        padding-bottom: 15px;
+    }
+
+    .konkurrence-wrapper a {
+        font-size: 2rem;
+    }
+
+    .urtekram {
+        background: linear-gradient(-31.5deg, #ffff 50.3%, #802620 50.4%); 
+    }
+
+    .urtekram img {
+        width: 35%;
+    }
+
+    .urtekram a{
+        font-size: 2rem;
+    }
+
+    .tekst-footer {
+        display: grid;
+        column-gap: 12.5%;
+        grid-template-columns: 25% 25% 25%;
+    }
+
+    .footer-wrapper1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        
+    }
+
+    footer img {
+        width: 40%;
+        margin-top: 60px;
+    }
+
+    footer a {
+        font-size: 1.1rem;
+    }
+
+    footer a:hover{
+        font-size: 1.2rem;
+    } 
+
+    footer p {
+        font-size: 1.1rem;
+    }
+
+    .opskrift-tekst {
+        margin-top: -29px;
+        margin-left: -15px;
+    }
+
+    .opskrift-tekst h1 {
+        padding-top: 150px;
+        font-size: 2.2rem;
+    }
+
+    .opskrift-tekst p {
+        font-size: 1.1rem;
+        padding-bottom: 50px;
+    }
+
+    .opskrifter {
+        display: grid;
+        column-gap: 10%;
+        grid-template-columns: 40% 40%;
+        margin-left: 7.5%;
+    }
+
+    .opskrifter a {
+        font-size: 2rem;
+    }
+
+    .opskrift1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .opskrift2 img {
+        margin-top: 0;
+    }
+
+    .konkurrencen {
+        margin-top: -29px;
+    }
+    
+    .konkurrencen h1 {
+        font-size: 2.2rem;
+        padding-top: 150px;
+    }
+
+    .kon-wrap {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        margin-left: 4%;
+    }
+
+    .kon1 {
+        width: 90%;
+    }
+
+    .kon2 {
+        padding-top: 20%;
+        margin-right: 8%;
+        margin-left: 8%;
+        font-size: 1.3rem;
+    }
+
+    .kon2 p {
+        font-size: 1.3rem;
+    }
+
+    .deltag {
+        margin-left: 15%;
+        margin-right: 15%
+    }
+
+    .deltag p{
+        margin-top: 30px;
+        font-size: 1.3rem;
+    }
+
+    .deltag a{
+        font-size: 2rem;
+    }
+
+    .retter {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        margin-left: 7%;
+    }
+
+    .retter img {
+        width: 90%;
+    }
+
+    .pasta-fettuccine-bund {
+        background: linear-gradient(-27.5deg, #ffff 50.1%, #802620 50.2%);
+    }
+
+    .pasta-fettuccine-bund .pasta-emballage {
+        width: 70%;
+        margin-top: -7%;
+    }
+
+    .pasta-fettuccine-bund h2 {
+        margin-top: -5%;
+    }
+
+    .pasta-fettuccine-bund a {
+        font-size: 2rem;
+    }
+
+    .fettuccine {
+        background: linear-gradient(-28deg, #ffff 47.7%, #802620 47.8%);        
+    }
+
+    .fettuccine .pasta-emballage {
+        width: 75%;
+        padding-top: 9px;
+    }
+
+    .fettuccine h1 {
+        font-size: 2.1rem;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: -5%;
+    }
+
+    .bag-om {
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+
+    .bag-om img {
+        width: 90%;
+        margin-top: 5%;
+    }
+    
+    .bag-om h2 {
+        font-size: 2rem;
+    }
+
+    .bag-om p {
+        font-size: 1.3rem;
+    }
+
+    .bag1 {
+        margin-top: 20%;
+        margin-left: 8%;
+        margin-right: 5%;
+    }
+
+    .hvid {
+        display: grid;
+        column-gap: 10%;
+        grid-template-columns: 45% 45%;
+    }
+
+    .ingredienser img {
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .ingredienser h2 {
+        font-size: 2rem;
+        margin-top: 33%;
+    }
+
+    .ingredienser p {
+        font-size: 1.3rem;
+        margin-top: -59%;
+    }
+
+    .se-opskrifter {
+        background: linear-gradient(-28deg, #ffff 51%, #802620 51.1%); 
+    }
+
+    .se-opskrifter img {
+        width: 35%;
+        margin-top: -4%;
+    }
+
+    .se-opskrifter a {
+        font-size: 2rem;
+    }
+
+    .se-opskrifter h3 {
+        margin-top: -1.5%;
+    }
+
+    .pastaretten {
+        margin-top: -29px;
+    }
+
+    .pastaretten h1 {
+        font-size: 2.2rem;
+        padding-top: 140px;
+    }
+
+    .pastaretten img {
+        width: 60%;
+    }
+
+    .pastaretten p {
+        padding: 7% 10%;
+        font-size: 1.6rem;
+    }
+
+    .ingre {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        margin-left: 4%;
+    }
+
+    .fremgangsmaade {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+
+    .fremgangsmaade .tekst {
+        padding-top: 2%;
+    }
+
+    .tekst {
+        font-size: 1.3rem;
+    }
+
+    .billede img {
+        width: 95%;
+    }
+
+} 
